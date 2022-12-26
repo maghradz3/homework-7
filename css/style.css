@@ -146,24 +146,34 @@ header{
     
 
 }
-.price-1{font-size: 24px;
+
+.price-cart{
+    /* border:2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items:  center;
+    font-size: 24px;
+    color:#111111;
+
+}
+
+
+.price-1{
+    
     color:#f5621f;
-    display: inline-block;
+
     /* border: 2px solid red; */
-    margin-right: 75px;
     cursor: pointer;
 
 }
 
 
 .price{
-    font-size: 24px;
-    color:#111111;
-    display: inline-block;
+
     /* border: 2px solid red; */
     margin-right: 75px;
     cursor: pointer;
-    /* margin-right: 90px; */
+  
 
 }
 
@@ -172,8 +182,9 @@ header{
     background-color: #74b42c;
     width: 34px;
     height: 34px;
+    display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     padding: 1px;
     color: #0f0f0f;
     cursor: pointer;
